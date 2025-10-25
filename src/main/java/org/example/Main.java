@@ -49,7 +49,13 @@ public class Main {
         System.out.println("Kruskal MST: " + jsonKruskal.mstEdges);
         System.out.println();
 
-        OutputWriter.saveResult("src/main/resources/output.json", jsonPrim, jsonKruskal);
+        OutputWriter.saveResult(
+                "src/main/resources/output.json",
+                jsonGraph,
+                jsonPrim,
+                jsonKruskal
+        );
         System.out.println("✅ Results saved to output.json");
+
     }
 }

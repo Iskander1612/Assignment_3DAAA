@@ -1,6 +1,6 @@
 {
-  "primResult" : {
-    "mstEdges" : [ {
+  "prim" : {
+    "mst_edges" : [ {
       "from" : "A",
       "to" : "C",
       "weight" : 3
@@ -17,12 +17,16 @@
       "to" : "E",
       "weight" : 6
     } ],
-    "totalCost" : 16,
     "operations" : 20,
-    "timeMs" : 0
+    "total_cost" : 16,
+    "time_ms" : 0
   },
-  "kruskalResult" : {
-    "mstEdges" : [ {
+  "input_stats" : {
+    "vertices" : 5,
+    "edges" : 7
+  },
+  "kruskal" : {
+    "mst_edges" : [ {
       "from" : "B",
       "to" : "C",
       "weight" : 2
@@ -39,8 +43,8 @@
       "to" : "E",
       "weight" : 6
     } ],
-    "totalCost" : 16,
     "operations" : 26,
-    "timeMs" : 0
+    "total_cost" : 16,
+    "time_ms" : 0
   }
 }
